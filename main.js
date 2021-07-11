@@ -157,7 +157,7 @@ class MangoService {
         return this.httpClient.post(this.mangoApiUrl + 'auth/verify-phone', command);
     }
     login(command) {
-        return this.httpClient.post(this.mangoApiUrl + 'auth/login', command);
+        return this.httpClient.post(this.mangoApiUrl + 'auth/login', command, { withCredentials: true });
     }
     refreshToken() {
         return this.httpClient.post(this.mangoApiUrl, {});
