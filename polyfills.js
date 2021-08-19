@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/runner/work/mango-angular-frontend/mango-angular-frontend/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /home/runner/work/MangoAngularFrontEnd/MangoAngularFrontEnd/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
